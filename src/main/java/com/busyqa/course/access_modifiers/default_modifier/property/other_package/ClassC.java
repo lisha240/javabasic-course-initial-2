@@ -12,10 +12,6 @@ class ClassC {
 		 * in their own package only because they have default access modifier. 
 		 */
 
-		ClassA obj = new ClassA(); 
-
-		//obj.a = 1;
-		//obj.doSomething();
 	}
 
 }

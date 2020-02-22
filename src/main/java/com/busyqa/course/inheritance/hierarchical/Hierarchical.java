@@ -10,13 +10,7 @@ class Parent {
 
 }
 
-class ChildA extends Parent {
 
-}
-
-class ChildB extends Parent {
-
-}
 
 public class Hierarchical {
 

@@ -15,21 +15,7 @@ class ClassA {
 }
 
 @SuppressWarnings("unused")
-class ClassB {
-	
-	public static void main(String[] args) {
-		
-		ClassA obj = new ClassA();
-				
-		/*
-		 * Private members are not visible from outside the Class.
-		 */
-		
-		/* 
-		 * obj.member = 1; 
-		 * obj.doSomething();
-		 */
-	}
+class ClassB {	
 
 }
 public class Private {

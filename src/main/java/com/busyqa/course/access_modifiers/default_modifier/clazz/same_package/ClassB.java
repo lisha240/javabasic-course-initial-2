@@ -13,10 +13,10 @@ package com.busyqa.course.access_modifiers.default_modifier.clazz.same_package;
  * extended and also instantiated within the main method of ClassB 
  */
 
-class ClassB extends ClassA {
+class ClassB {
 	
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-		ClassA obj = new ClassA();	
+
 	}
 }

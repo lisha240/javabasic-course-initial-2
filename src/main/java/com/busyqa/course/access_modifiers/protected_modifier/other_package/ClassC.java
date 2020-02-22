@@ -11,25 +11,10 @@ class ClassD extends ClassA{
 	 * 
 	 */
 	void verifyVisibility() {
-		this.a = 5;
-		this.doSomething();		
+
 	}
 }
 
 class ClassC {
-	
-	@SuppressWarnings("unused")
-	public static void main(String[] args) {
-		
-		/* 
-		 * ClassA is visible because it's public but not its members as they are 
-		 * protected. Members are only available in other packages through inheritance.
-		 * 
-		 */
-		
-		ClassA objA = new ClassA(); 
-		//objA.a = 5;
-		//objA.doSomething();		
-	}
 
 }

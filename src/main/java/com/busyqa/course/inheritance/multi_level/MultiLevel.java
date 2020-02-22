@@ -31,11 +31,11 @@ class Parent {
 	}	
 }
 
-class Child extends Parent{
+class Child {
 	
 }
 
-class GranChild extends Child {
+class GranChild {
 
 }
 
@@ -44,9 +44,6 @@ public class MultiLevel {
 	public static void main(String[] args) {
 		
 		GranChild granChild = new GranChild();
-		
-		granChild.setName("John");
-		granChild.setAge(30);
 		
 		System.out.println(granChild.toString());
 	}

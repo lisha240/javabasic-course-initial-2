@@ -8,10 +8,4 @@ package com.busyqa.course.access_modifiers.protected_modifier.same_package;
 
 class ClassB {
 	
-	public static void main(String[] args) {
-		ClassA obj = new ClassA();
-		
-		obj.a = 1; 
-		obj.doSomething();
-	}
 }

@@ -37,13 +37,9 @@ interface ParentB {
     }
 }
 
-class Child extends ParentA implements ParentB{
+class Child {
 
-	@Override
-	public String findAddress() {
 
-		return "SomeText";
-	}
 }
 
 public class Hybrid {

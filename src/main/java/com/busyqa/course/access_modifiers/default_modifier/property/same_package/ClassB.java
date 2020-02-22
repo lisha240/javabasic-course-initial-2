@@ -8,10 +8,4 @@ package com.busyqa.course.access_modifiers.default_modifier.property.same_packag
 
 class ClassB {
 	
-	public static void main(String[] args) {
-		ClassA obj = new ClassA();
-		
-		obj.a = 1;
-		obj.doSomething();
-	}
 }

@@ -34,7 +34,7 @@ class Parent {
 	}	
 }
 
-class Child extends Parent{
+class Child {
 	
 }
 
@@ -44,9 +44,7 @@ public class Single {
 		
 		Child child = new Child();
 		
-		child.setName("John");
-		child.setAge(30);
-		
+
 		System.out.println(child.toString());
 	}
 }
