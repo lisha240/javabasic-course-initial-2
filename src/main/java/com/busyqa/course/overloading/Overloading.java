@@ -25,16 +25,6 @@ public class Overloading {
 	Overloading(){
 		super();
 	}
-	Overloading(String str){
-		this.str = str;
-	}
-	Overloading(int a){
-		this.a = a;
-	}
-	Overloading(int a, String s){
-		this.a = a;
-		this.str = s;
-	}
 	
 	
 	/*
@@ -47,18 +37,13 @@ public class Overloading {
 		return s + " " + a;
 	}
 	
-	String display(int a, int b) {
-		return a + " , " + b;
-	}	
+
 	
 	// Overloading by changing the number of arguments. 
 	int add(int a, int b) {
 		return a + b;
 	}
 
-	int add(int a, int b, int c) {
-		return a + b + c;
-	}
 
 	/*
 	 *  3. Overloading the Main Method. (JVM will call the default main method)
@@ -69,22 +54,20 @@ public class Overloading {
 		
 		Overloading obj1 = new Overloading();
 		
-		Overloading obj2 = new Overloading("busyQA");
-		Overloading obj3 = new Overloading(1,"busyQA");
+
 		
 		System.out.println(obj1.display("text",1));
-		System.out.println(obj1.display(1,2));
+
 		
 		System.out.println(obj1.add(1,2));
-		System.out.println(obj1.add(1,2,3));
+
 	}
 	
 	public static void main() {
 		
 		Overloading obj1 = new Overloading();
 		
-		System.out.println(obj1.display("text",1));
-		System.out.println(obj1.display(1,2));
+
 	}
 	
 	

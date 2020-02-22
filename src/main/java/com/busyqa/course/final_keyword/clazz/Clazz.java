@@ -4,7 +4,7 @@ final class Parent {
 
 }
 
-class Child /*extends Parent*/ { /*A final class cannot be extended*/
+class Child {
 
 
 }

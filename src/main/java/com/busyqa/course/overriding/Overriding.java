@@ -30,10 +30,6 @@ class Child extends Parent {
 		super(name, age);
 	}
 
-	@Override
-	public String toString() {
-		return "Child [name=" + name + ", age=" + age + "]";
-	}
 }
 
 public class Overriding {
